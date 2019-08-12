@@ -14,21 +14,25 @@
 <body>
 	<div class="container">
 		<h1>${donut.name}</h1>
-		<img src="${donut.photo}" /></a>
+		<img src="${donut.photo}" />
+
+		<div>
 			<table>
 				<tr>
 					<td>Calories:</td>
 					<td>${donut.calories}</td>
 				</tr>
 				<tr>
-					<td>Extras:</td>
-					<c:forEach var="each" items="${donut.extras}">
-						<ul>
-							<td><li>${each}<br></li></td>
-						</ul>
-					</c:forEach>
+					<td><h6>Extras:</h6></td>
+				</tr>
+				<c:forEach var="each" items="${donut.extras}">
+					<tr>
+						<td>${each}</td>
+					</tr>
+				</c:forEach>
 			</table>
-			<a class="btn btn-primary" href="/">Home</a>
-			</div>
+		</div>
+		<br><br><a class="btn btn-primary" href="/">Home</a>
+	</div>
 </body>
 </html>

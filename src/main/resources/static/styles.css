@@ -1,24 +1,5 @@
 @charset "ISO-8859-1";
-.ulnav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: black;
-  position:fixed; top:2%; right:2%;
-}
 
-.linav {
-  float: left;
-}
-
-.lianav {
-  display: block;
-  color:beige;
-  text-align: center;
-  padding: 10px 14px;
-  text-decoration: none;
-}
 div {
 	width: 500px;
 	display: inline-block;
@@ -28,7 +9,7 @@ img {
 	width: 20%;
 }
 table {
-	width 20%;
+	width: 20%;
 }
 
 .posters {
